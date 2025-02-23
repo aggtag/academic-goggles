@@ -64,7 +64,7 @@ $boost=4,site=imf.org
 
   ! Le gouvernement
 
-.gouv.fr$boost=3
+.gouv.fr$boost=1
 
   ! Les dictionnaires
 
@@ -101,6 +101,8 @@ $discard,site=amazon.com
 $discard,site=netflix.com
 $discard,site=ebay.fr
 
+/.blog$discard
+/blog.$discard
 $discard,site=blogspot.com
 $discard,site=wordpress.com
 
