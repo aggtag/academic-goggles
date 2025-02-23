@@ -14,7 +14,7 @@
 
 ! Üniversiteler
 
-.edu.tr$boost=1
+.edu.tr$boost=5
 www.*.edu$boost=5
 iae.org.tr$boost=5
 enstitusu.org$boost=5
