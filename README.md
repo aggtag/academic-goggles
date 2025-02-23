@@ -11,6 +11,6 @@ To be more precise and accurate, I create country-based goggles. Available count
 
 <p align="center">
   <em>
-    France
+    France · Türkiye
   </em>
 </p>
