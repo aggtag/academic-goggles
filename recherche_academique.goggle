@@ -1,6 +1,6 @@
 ! name: Recherche Académique
 ! description: Facilitez vos recherches académiques en utilisant cette goggle. Plus de pdf, des archives académiques et des bibliothèques universitaires.
-! public: false
+! public: true
 ! author: aggtag
 
 ! Votre langue préférée
