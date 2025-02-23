@@ -1,0 +1,113 @@
+! name: Recherche Académique
+! description: Facilitez vos recherches académiques en utilisant cette goggle. Plus de pdf, des archives académiques et des bibliothèques universitaires.
+! public: false
+! author: aggtag
+
+! Votre langue préférée
+
+*lang=fr*
+
+! Les fichiers spécifiques
+
+.pdf$boost=8
+
+! Les sites universitaires
+
+www.*.edu$boost=5
+www.*.ac.fr$boost=5
+//ens-$boost=5
+.ens-$boost=5
+.ens.$boost=5
+//universite-$boost=5
+.universite-$boost=5
+.universite.$boost=5
+-universite.fr$boost=5
+//univ-$boost=5
+.univ-$boost=5
+.univ.$boost=5
+//uni-$boost=5
+.uni-$boost=5
+.uni.$boost=5
+//u-$boost=5
+.u-$boost=5
+.u.$boost=5
+sorbonne.fr$boost=5
+
+! Les sites académiques
+
+  ! Les archives
+
+$boost=4,site=researchgate.net
+$boost=4,site=jstor.org
+$boost=4,site=arxiv.org
+$boost=4,site=hal.archives-ouvertes.fr
+$boost=4,site=base-search.net
+$boost=4,site=theses.fr
+$boost=4,site=core.ac.uk
+$boost=4,site=scholar.google.com
+
+  ! Les bibliothéques
+
+$boost=4,site=openlibrary.org
+$boost=4,site=worldcat.org
+$boost=4,site=bnf.fr
+$boost=4,site=academie-francaise.fr
+$boost=4,site=parismuseescollections.paris.fr
+
+  ! Les statistiques
+
+$boost=4,site=insee.fr
+$boost=4,site=ec.europa.eu
+$boost=4,site=unstats.un.org
+$boost=4,site=imf.org
+
+  ! Le gouvernement
+
+.gouv.fr$boost=3
+
+  ! Les dictionnaires
+
+$boost=4,site=cnrtl.fr
+$boost=4,site=dictionnaire-academie.fr
+
+! Les sites non-académiques
+
+$discard,site=wikipedia.org
+$discard,site=wiktionary.org
+
+$discard,site=facebook.com
+$discard,site=twitter.com
+$discard,site=instagram.com
+$discard,site=x.com
+$discard,site=youtube.com
+$discard,site=quora.com
+$discard,site=reddit.com
+$discard,site=medium.com
+$discard,site=pinterest.com
+$discard,site=stackoverflow.com
+
+$discard,site=francetvinfo.fr
+$discard,site=lemonde.fr
+$discard,site=tf1info.fr
+$discard,site=leparisien.fr
+$discard,site=lefigaro.fr
+$discard,site=liberation.fr
+$discard,site=20minutes.fr
+$discard,site=bfmtv.com
+
+$discard,site=amazon.fr
+$discard,site=amazon.com
+$discard,site=netflix.com
+$discard,site=ebay.fr
+
+$discard,site=blogspot.com
+$discard,site=wordpress.com
+
+$discard,site=linternaute.fr
+$discard,site=major-prepa.com
+$discard,site=misterprepa.net
+$discard,site=lafinancepourtous.com
+$discard,site=slideshare.net
+$discard,site=scribd.com
+$discard,site=contrepoints.org
+$discard,site=scienceshumaines.com
