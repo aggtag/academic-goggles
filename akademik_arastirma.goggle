@@ -90,7 +90,7 @@ $discard,site=amazon.com
 $discard,site=netflix.com
 $discard,site=ebay.fr
 
-www.*.blog$discard
+.blog$discard
 $discard,site=blogspot.com
 $discard,site=wordpress.com
 
