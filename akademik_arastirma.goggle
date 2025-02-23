@@ -93,6 +93,7 @@ $discard,site=ebay.fr
 www.*.blog$discard
 $discard,site=blogspot.com
 $discard,site=wordpress.com
+
 $discard,site=donanimhaber.com
 $discard,site=donanimarsivi.com
 $discard,site=eksisozluk.com
@@ -101,4 +102,4 @@ $discard,site=onedio.com
 $discard,site=evrimagaci.org
 $discard,site=uludagsozluk.com
 $discard,site=shiftdelete.net
-
+$discard,site=konupara.com
