@@ -1,0 +1,100 @@
+! name: Akademik Araştırma
+! description: Bu goggle ile akademik araştırmalarınızda kolaylık sağlayın. Aratmalarınızda daha çok PDF ve akademik kütüphane görmek için ekleyebilirsiniz. 
+! public: true
+! author: aggtag
+! avatar: #e30a17
+
+! Seçtiğiniz dil
+
+*lang=tr*
+
+! Dosya türleri
+
+.pdf$boost=8
+
+! Üniversiteler
+
+.edu.tr$boost=1
+www.*.edu$boost=5
+iae.org.tr$boost=5
+enstitusu.org$boost=5
+
+! Akademik siteler
+
+  ! Arşivler
+
+$boost=4,site=researchgate.net
+$boost=4,site=jstor.org
+$boost=4,site=arxiv.org
+$boost=4,site=base-search.net
+$boost=4,site=core.ac.uk
+$boost=4,site=scholar.google.com
+$boost=4,site=yok.gov.tr
+
+  ! Kütüphaneler
+
+$boost=4,site=openlibrary.org
+$boost=4,site=worldcat.org
+
+  ! İstatistik
+
+$boost=4,site=tuik.gov.tr
+$boost=4,site=ec.europa.eu
+$boost=4,site=unstats.un.org
+$boost=4,site=imf.org
+$boost=4,site=tcmb.gov.tr
+
+  ! Devlet
+
+.gov.tr$boost=1
+
+  ! Sözlükler
+
+$boost=4,site=sozluk.gov.tr
+
+! Akademik olmayan siteler
+
+$discard,site=wikipedia.org
+$discard,site=wiktionary.org
+
+$discard,site=facebook.com
+$discard,site=twitter.com
+$discard,site=instagram.com
+$discard,site=x.com
+$discard,site=youtube.com
+$discard,site=quora.com
+$discard,site=reddit.com
+$discard,site=medium.com
+$discard,site=pinterest.com
+$discard,site=stackoverflow.com
+
+$discard,site=hurriyet.com.tr
+$discard,site=cumhuriyet.com.tr
+$discard,site=milliyet.com.tr
+$discard,site=sozcu.com.tr
+$discard,site=sabah.com.tr
+$discard,site=yeniakit.com.tr
+$discard,site=haberturk.com
+$discard,site=posta.com.tr
+$discard,site=yenisafak.com
+$discard,site=ahaber.com.tr
+$discard,site=aksam.com.tr
+$discard,site=ntv.com.tr
+$discard,site=trthaber.com
+
+$discard,site=amazon.fr
+$discard,site=amazon.com
+$discard,site=netflix.com
+$discard,site=ebay.fr
+
+$discard,site=blogspot.com
+$discard,site=wordpress.com
+$discard,site=donanimhaber.com
+$discard,site=donanimarsivi.com
+$discard,site=eksisozluk.com
+$discard,site=webtekno.com
+$discard,site=onedio.com
+$discard,site=evrimagaci.org
+$discard,site=uludagsozluk.com
+$discard,site=shiftdelete.net
+
