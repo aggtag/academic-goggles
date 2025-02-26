@@ -17,6 +17,7 @@
 
 www.*.edu$boost=5
 www.*.ac.fr$boost=5
+//ac-$boost=5
 //ens-$boost=5
 .ens-$boost=5
 .ens.$boost=5
@@ -47,6 +48,7 @@ $boost=4,site=base-search.net
 $boost=4,site=theses.fr
 $boost=4,site=core.ac.uk
 $boost=4,site=scholar.google.com
+$boost=4,site=cnrs.fr
 
   ! Les bibliothéques
 
@@ -62,6 +64,27 @@ $boost=4,site=insee.fr
 $boost=4,site=ec.europa.eu
 $boost=4,site=unstats.un.org
 $boost=4,site=imf.org
+
+! Les Régions
+
+$boost=4,site=normandie.fr
+$boost=4,site=auvergnerhonealpes.fr
+$boost=4,site=bourgognefranchecomte.fr
+$boost=4,site=bretagne.bzh
+$boost=4,site=centre-valdeloire.fr
+$boost=4,site=grandest.fr
+$boost=4,site=hautsdefrance.fr
+$boost=4,site=iledefrance.fr
+$boost=4,site=nouvelle-aquitaine.fr
+$boost=4,site=laregion.fr
+$boost=4,site=paysdelaloire.fr
+$boost=4,site=maregionsud.fr
+
+$boost=4,site=regionguadeloupe.fr
+$boost=4,site=reunion.fr
+$boost=4,site=guyane-amazonie.fr
+$boost=4,site=mayotte.fr
+$boost=4,site=martinique.fr
 
   ! Le gouvernement
 
