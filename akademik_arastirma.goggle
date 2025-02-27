@@ -85,11 +85,6 @@ $discard,site=ntv.com.tr
 $discard,site=trthaber.com
 $discard,site=www.dunya.com
 
-$discard,site=amazon.fr
-$discard,site=amazon.com
-$discard,site=netflix.com
-$discard,site=ebay.fr
-
 /.blog$discard
 /blog.$discard
 $discard,site=blogspot.com
