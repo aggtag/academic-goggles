@@ -121,11 +121,6 @@ $discard,site=20minutes.fr
 $discard,site=bfmtv.com
 $discard,site=freenews.fr
 
-$discard,site=amazon.fr
-$discard,site=amazon.com
-$discard,site=netflix.com
-$discard,site=ebay.fr
-
 /.blog$discard
 /blog.$discard
 $discard,site=blogspot.com
